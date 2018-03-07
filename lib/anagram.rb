@@ -18,10 +18,10 @@ class Anagram
 
   def match(str)
     arr = []
-    new_arr = str.split(' ')
-    new_arr.each do |word|
-
-      if word.sort == @word.sort
+    sorted_word = @word.split('')
+    str.each do |word|
+      new_arr = word.split('')
+      if new_arr.sort = sorted_word.sort
         arr << word
       end
     end
