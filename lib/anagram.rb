@@ -21,7 +21,7 @@ class Anagram
     sorted_word = @word.split('')
     str.each do |word|
       new_arr = word.split('')
-      if new_arr.sort = sorted_word.sort
+      if new_arr.sort == sorted_word.sort
         arr << word
       end
     end
