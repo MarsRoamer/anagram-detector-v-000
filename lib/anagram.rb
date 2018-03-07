@@ -11,7 +11,9 @@ class Anagram
       if word.match(/\b[@word]{2word.length}\b/)
         arr << word
       end
-      arr
+    end
+    arr 
   end
+  
 
 end
