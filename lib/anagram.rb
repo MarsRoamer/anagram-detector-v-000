@@ -18,7 +18,8 @@ class Anagram
 
   def match(str)
     arr = []
-    str.each do |word|
+    new_arr = str.split(' ')
+    new_arr.each do |word|
 
       if word.sort == @word.sort
         arr << word
